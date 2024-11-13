@@ -60,3 +60,21 @@ export const pastData = [
       "https://utfs.io/f/BCPfHUjwOM0EBMu0ufHjwOM0EN83U1jfzV47cZXkBpvTI6KJ",
   },
 ];
+
+export const contentData = [
+  {
+      title: 'Technical content',
+      description: 'Worldwide events hosted by the Google Developer Groups community, featuring leading experts on technologies in areas like Android, Firebase, Flutter, Machine Learning, AI, Cloud and so much more!',
+      icon: '🟣🔺🔺', // replace with actual icons or SVG elements if needed
+  },
+  {
+      title: 'Panel Discussions',
+      description: 'Full-day panel-discussions, all centered on your favorite Google technologies.',
+      icon: '🔷🔷', // replace with actual icons or SVG elements if needed
+  },
+  {
+      title: 'Networking',
+      description: 'Meet and connect with other developers in your community.',
+      icon: '🟢🟢🟢', // replace with actual icons or SVG elements if needed
+  },
+];

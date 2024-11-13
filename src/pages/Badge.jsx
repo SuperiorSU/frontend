@@ -2,7 +2,6 @@ import { useState } from "react";
 import html2canvas from "html2canvas";
 import Container from "../components/global/Container";
 import { GoUpload } from "react-icons/go";
-import GrayContainer from "../components/global/GrayContainer";
 
 const Badge = () => {
   const [selectedImage, setSelectedImage] = useState(null);

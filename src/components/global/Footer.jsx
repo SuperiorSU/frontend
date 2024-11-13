@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-6 px-4">
       <div className="container mx-auto flex flex-col md:flex-row lg:items-center lg:justify-between">
-        {/* Left Section with Logo and Links */}
+       
         <div className="flex lg:ps-0 md:ps-1 ps-5 flex-col md:flex-row md:items-center space-y-6 md:space-y-0 md:space-x-6">
           <div className="text-xl font-primaryBold">GDG Chandigarh</div>
           <div className="lg:px-4 lg:block hidden"></div>
@@ -32,8 +32,6 @@ function Footer() {
             Community Guidelines
           </Link>
         </div>
-
-        {/* Right Section with Social Icons */}
         <div className="flex space-x-4 mt-4 md:mt-0">
           <a
             href="mailto:someone@example.com"
