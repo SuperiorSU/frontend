@@ -26,9 +26,9 @@ function NavBar() {
         
         
         <div className="lg:flex hidden space-x-4 ">
-          <Link to="" className="text-gray-700 text-xs font-primaryRegular inline-block hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Home</Link>
+          <Link to="/" className="text-gray-700 text-xs font-primaryRegular inline-block hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Home</Link>
           <Link to="" className="text-gray-700 font-primaryRegular text-xs inline-block hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Speakers</Link>
-          <Link to="" className="text-gray-700 font-primaryRegular text-xs inline-block hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Badge</Link>
+          <Link to="/badge" className="text-gray-700 font-primaryRegular text-xs inline-block hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Badge</Link>
           <Link to="" className="text-gray-700 font-primaryRegular text-xs inline-block hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Sponsors</Link>
           <Link to="" className="text-gray-700 font-primaryRegular text-xs inline-block hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Team</Link>
           <Link to="" className="text-gray-700 font-primaryRegular text-xs inline-block hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">FAQ</Link>
@@ -47,9 +47,9 @@ function NavBar() {
 
       {isOpen && (
         <div className="lg:hidden flex flex-col items-center space-y-5 absolute lg:w-3/4 md:w-3/4 sm:w-full w-full z-[50000000] top-[72px] bg-gray-100 md:left-24 md:right-24 md:rounded-t-2xl p-4 shadow-md">
-          <Link to="" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Home</Link>
+          <Link to="/" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Home</Link>
           <Link to="" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Speakers</Link>
-          <Link to="" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Badge</Link>
+          <Link to="/badge" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Badge</Link>
           <Link to="" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Sponsors</Link>
           <Link to="" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Team</Link>
           <Link to="" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">FAQ</Link>
