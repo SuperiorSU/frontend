@@ -4,7 +4,7 @@ import Layout from './layout/Layout'
 import Home from './pages/Home'
 import ErrorPage from './pages/ErrorPage'
 import Badge from './pages/Badge'
-
+import FAQ from './pages/faq'
 
 
 const BrowserRouter = createBrowserRouter([
@@ -19,6 +19,10 @@ const BrowserRouter = createBrowserRouter([
       {
         path:'/badge',
         element: <Badge/>
+      }, 
+      {
+        path:'/faq',
+        element: <FAQ/>
       }
     ]
   },
