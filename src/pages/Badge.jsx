@@ -47,19 +47,19 @@ const Badge = () => {
           <p className="text-xl font-primaryMedium text-gray-500">Image Shape</p>
           <div className="flex space-x-4 mt-2 mb-7">
             <button
-              className={`py-2 px-4 border rounded-full ${shape === "original" ? "bg-blue-500 text-white" : "bg-white text-black"}`}
+              className={`py-2 px-4 border rounded-full ${shape === "original" ? "bg-blue-500 border border-black text-white" : "bg-white text-black"}`}
               onClick={() => setShape("original")}
             >
               ORIGINAL
             </button>
             <button
-              className={`py-2 px-4 border rounded-full ${shape === "square" ? "bg-blue-500 text-white" : "bg-white text-black"}`}
+              className={`py-2 px-4 border rounded-full ${shape === "square" ? "bg-blue-500 border border-black text-white" : "bg-white text-black"}`}
               onClick={() => setShape("square")}
             >
               SQUARE
             </button>
             <button
-              className={`py-2 px-4 border rounded-full ${shape === "circle" ? "bg-blue-500 text-white" : "bg-white text-black"}`}
+              className={`py-2 px-4 border rounded-full ${shape === "circle" ? "bg-blue-500 border border-black text-white" : "bg-white text-black"}`}
               onClick={() => setShape("circle")}
             >
               CIRCLE
@@ -83,7 +83,7 @@ const Badge = () => {
           <div className="border border-black rounded-xl p-1 bg-gray-200">
             <div
               id="badgePreview"
-              className={`relative border border-black w-full sm:w-96 h-full sm:h-96 mx-auto mt-6 flex items-center justify-center overflow-hidden ${getShapeClass()}`}
+              className={`relative border border-black w-full sm:w-96 h-full sm:h-96 my-auto mx-auto mt-6 flex items-center justify-center overflow-hidden ${getShapeClass()}`}
               style={{
                 backgroundColor: "transparent",
                 width: shape === "original" ? "20rem" : "16rem",
