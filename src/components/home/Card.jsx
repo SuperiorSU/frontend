@@ -22,7 +22,7 @@ const Card = ({ name, imageSrc, designation, description, links }) => {
         className="w-40 h-40 object-cover rounded-full mx-auto cursor-pointer transition-transform duration-300 transform hover:scale-105"
         onClick={handleOpen}
       />
-      <h2 className="mt-4 text-2xl font-semibold text-gray-800 text-center">
+      <h2 className="mt-4 text-2xl w-full font-semibold text-gray-800 text-center">
         {name}
       </h2>
       {isOpen && (
