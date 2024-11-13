@@ -83,7 +83,7 @@ const Badge = () => {
           <div className="border border-black rounded-xl p-1 bg-gray-200">
             <div
               id="badgePreview"
-              className={`relative border border-black w-full sm:w-96 h-full sm:h-96 my-auto mx-auto mt-6 flex items-center justify-center overflow-hidden ${getShapeClass()}`}
+              className={`relative border border-black w-full sm:w-96 h-full sm:h-96 mb-4 mx-auto mt-6 flex items-center justify-center overflow-hidden ${getShapeClass()}`}
               style={{
                 backgroundColor: "transparent",
                 width: shape === "original" ? "20rem" : "16rem",
