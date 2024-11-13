@@ -35,7 +35,9 @@ const BrowserRouter = createBrowserRouter([
 const App = () => {
   
   return (
-    <RouterProvider router={BrowserRouter}/>
+    <div className="m-0 p-0 w-screen">
+      <RouterProvider router={BrowserRouter}/>
+    </div>
   )
 }
 

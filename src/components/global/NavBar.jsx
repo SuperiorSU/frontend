@@ -51,8 +51,8 @@ function NavBar() {
           <Link to="" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Speakers</Link>
           <Link to="/badge" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Badge</Link>
           <Link to="" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Sponsors</Link>
-          <Link to="" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Team</Link>
-          <Link to="/team" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">FAQ</Link>
+          <Link to="/team" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Team</Link>
+          <Link to="" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">FAQ</Link>
           <Link to="" className="block bg-yellow-400 text-black border font-medium py-2 px-4 rounded-full border-black hover:bg-yellow-500">
             Register Now
           </Link>
