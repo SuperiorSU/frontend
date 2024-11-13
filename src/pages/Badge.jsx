@@ -39,8 +39,8 @@ const Badge = () => {
 
   return (
     <Container>
-      <div className="lg:grid lg:grid-cols-2 lg:p-8 md:p-8 p-2 space-y-8 lg:space-y-0">
-        <div className="flex flex-col items-center lg:items-start lg:col-span-1 space-y-6">
+      <div className="lg:grid lg:grid-cols-2 lg:p-8 md:p-8 p-2 min-h-[85vh] lg:space-y-0">
+        <div className="flex flex-col items-center lg:items-start lg:col-span-1 space-y-6 place-content-center">
           <h1 className="text-4xl sm:text-5xl font-primaryBold py-4 mb-2 text-center lg:text-left">Badge</h1>
           <p className="text-gray-600 mb-4 text-center lg:text-left">
             Upload an image and generate a personalized badge with the DevFest frame.
