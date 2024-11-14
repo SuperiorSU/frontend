@@ -119,29 +119,20 @@ const GDG_cloud_chandigarh = [
 const GDG_on_campus_leads = [
     {
         name: "Udayan Sharma",
-        role: "GDG On Campus Chitkara Lead",
+        role: "GDG On Campus Chitkara Community Lead",
         image: "https://i.ibb.co/BG4GWBN/1723979900199.jpg",
-        description: "Builds and maintains our web platforms.",
+        description: "As the GDG On Campus Chitkara Community Lead, I am dedicated to  build and expand our growing community on campus. Through events and mentorship, I connect students with Google’s resources and community.",
         socialLinks: {
             linkedin: "https://www.linkedin.com/in/udayanmoudgil/",
         },
     },
-    {
-        name: "Anjali Singh",
-        role: "Mobile Developer",
-        image: "https://th.bing.com/th/id/OIP.iA9Q4OaCHS9cvigKitFobAHaHa?pid=ImgDet&w=178&h=178&c=7&dpr=1.3",
-        description: "Leads our mobile development initiatives.",
-        socialLinks: {
-            github: "https://github.com/anjalis",
-            linkedin: "https://linkedin.com/in/anjali-singh",
-        },
-    },
+    
 ];
 
 const GDG_on_campus_volunteers = [
     {
         name: "Vedant Handa",
-        role: "Web Lead",
+        role: "GDG On Campus Chitkara Web-Dev Lead",
         image: "https://i.ibb.co/0GNFyqD/linkdin-profile.jpg",
         description: "As the web dev lead at GDG, my friend brings innovation and precision to every project, making sure the web experiences we create are as smooth as they are impactful. With a passion for design and development, they turn challenges into opportunities and always push the boundaries of what's possible.",
         socialLinks: {
@@ -150,7 +141,7 @@ const GDG_on_campus_volunteers = [
     },
     {
         name: "Gursimran Singh",
-        role: "Web Developer",
+        role: "GDG On Campus Chitkara Web Developer",
         image: "https://avatars.githubusercontent.com/u/135122793?v=4",
         description: "Building seamless web experiences with a focus on intuitive design and clean, efficient code. As a web developer, I turn coffee into code and bugs into features (sometimes unintentionally).",
         socialLinks: {
@@ -159,7 +150,7 @@ const GDG_on_campus_volunteers = [
     },
     {
         name: "Ghanshyam Agrawal",
-        role: "Web Developer",
+        role: "GDG On Campus Chitkara Web Developer",
         image: "https://i.ibb.co/zsBX0Cb/Whats-App-Image-2024-11-13-at-21-50-14-cf1ad0e3.jpg",
         description: "Web developer with a knack for sleek designs and clean code, fusing creativity with precision to bring digital ideas to life and crafting experiences that leave a mark.",
         socialLinks: {
@@ -167,8 +158,26 @@ const GDG_on_campus_volunteers = [
         },
     },
     {
+        name: "Varsha Singh",
+        role: "GDG SLIET Web-Dev Lead",
+        image: "https://i.ibb.co/qd8wbkc/Whats-App-Image-2024-11-14-at-12-46-41-c2e60d1e.jpg",
+        description: "I am Varsha Kumari, a 3rd yr B.E. student. I am a web developer and currently practising DSA.",
+        socialLinks: {
+            linkedin: "https://www.linkedin.com/in/varsha-kumari-038ba1248/",
+        },
+    },
+    {
+        name: "Kumar Sujal",
+        role: "GDG on Campus SVIET Tech Lead",
+        image: "https://i.ibb.co/v4J0DhB/myphoto-copy.jpg",
+        description: "Tech Lead @GDG on Campus SVIET | Fullstack DeveloperMy curiosity drives me to push boundaries and seek innovative solutions in the ever-evolving tech world.",
+        socialLinks: {
+            linkedin: "https://www.linkedin.com/in/kumar-sujal/",
+        },
+    },
+    {
         name: "Nischaya Garg",
-        role: "Web-Dev Lead",
+        role: "GDG Chandigarh Web-Dev Lead",
         image: "https://i.ibb.co/3F9gHRX/NG.jpg",
         description: "Web-Dev Lead at Chandigarh University B.E CSE-H (AI&ML) (IBM).",
         socialLinks: {
