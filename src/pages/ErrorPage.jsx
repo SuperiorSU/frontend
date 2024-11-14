@@ -23,7 +23,7 @@ const ErrorPage = () => {
             </button>
           </div>
           <div class="max-w-lg">
-            <img className="w-full" src="https://utfs.io/f/Fp16c7Wd5HTuJ6xGk9VH70dwr3DbxJGnUXPBskq8yI9zSOo5" alt="" />
+            <img loading="lazy" className="w-full" src="https://utfs.io/f/Fp16c7Wd5HTuJ6xGk9VH70dwr3DbxJGnUXPBskq8yI9zSOo5" alt="" />
           </div>
         </div>
       </div>

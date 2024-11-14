@@ -15,7 +15,7 @@ function NavBar() {
       <nav className="bg-gray-100 lg:w-3/4 md:w-3/4 sm:w-full w-full lg:my-4 md:my-4 sm:mb-3 mb-3  lg:top-4 md:top-4 top-0 p-4 lg:rounded-full md:rounded-full z-50 mx-auto flex items-center justify-between">
         
         <div className="flex items-center space-x-2">
-          <img
+          <img loading="lazy"
             src="https://utfs.io/f/Fp16c7Wd5HTuJrW7KPVH70dwr3DbxJGnUXPBskq8yI9zSOo5"
             alt="DevFest Logo"
             className="h-6"
@@ -31,7 +31,7 @@ function NavBar() {
           <Link to="/badge" className="text-gray-700 font-primaryRegular text-xs inline-block hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Badge</Link>
           <Link to="" className="text-gray-700 font-primaryRegular text-xs inline-block hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Sponsors</Link>
           <Link to="/team" className="text-gray-700 font-primaryRegular text-xs inline-block hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Team</Link>
-          <Link to="" className="text-gray-700 font-primaryRegular text-xs inline-block hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">FAQ</Link>
+          <Link to="/faq" className="text-gray-700 font-primaryRegular text-xs inline-block hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">FAQ</Link>
         </div>
         <div className="lg:hidden block">
           <button className="p-2 rounded-full hover:bg-slate-200 duration-100" onClick={handleToggle}>
@@ -39,7 +39,7 @@ function NavBar() {
           </button>
         </div>
         <div className="lg:block hidden w-max">
-          <Link to="" className="bg-yellow-400 font-primaryMedium text-black border font-medium py-2 px-4 rounded-full border-black hover:bg-yellow-500">
+          <Link target="_blank" to="https://allevents.in/mohali/devfest-chandigarh-2024/80008236703801" className="bg-yellow-400 font-primaryMedium text-black border font-medium py-2 px-4 rounded-full border-black hover:bg-yellow-500">
             Register Now
           </Link>
         </div>
@@ -47,13 +47,13 @@ function NavBar() {
 
       {isOpen && (
         <div className="lg:hidden flex flex-col items-center space-y-5 absolute lg:w-3/4 md:w-3/4 sm:w-full w-full z-[50000000] top-[72px] bg-gray-100 md:left-24 md:right-24 md:rounded-t-2xl p-4 shadow-md">
-          <Link to="/" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Home</Link>
-          <Link to="" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Speakers</Link>
-          <Link to="/badge" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Badge</Link>
-          <Link to="" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Sponsors</Link>
-          <Link to="/team" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Team</Link>
-          <Link to="" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">FAQ</Link>
-          <Link to="" className="block bg-yellow-400 text-black border font-medium py-2 px-4 rounded-full border-black hover:bg-yellow-500">
+          <Link onClick={()=>setIsOpen(false)} to="/" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Home</Link>
+          <Link onClick={()=>setIsOpen(false)} to="" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Speakers</Link>
+          <Link onClick={()=>setIsOpen(false)} to="/badge" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Badge</Link>
+          <Link onClick={()=>setIsOpen(false)} to="" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Sponsors</Link>
+          <Link onClick={()=>setIsOpen(false)} to="/team" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Team</Link>
+          <Link onClick={()=>setIsOpen(false)} to="/faq" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">FAQ</Link>
+          <Link onClick={()=>setIsOpen(false)} target="_blank" to="https://allevents.in/mohali/devfest-chandigarh-2024/80008236703801" className="block bg-yellow-400 text-black border font-medium py-2 px-4 rounded-full border-black hover:bg-yellow-500">
             Register Now
           </Link>
         </div>

@@ -91,14 +91,14 @@ const Badge = () => {
               }}
             >
               {selectedImage && (
-                <img
+                <img loading="lazy"
                   src={selectedImage}
                   alt="Uploaded Background"
                   className="absolute inset-0 w-full h-full object-center object-cover z-0"
                   style={{ clipPath: shape === "circle" ? "circle(50%)" : "none" }}
                 />
               )}
-              <img
+              <img loading="lazy"
                 src="https://utfs.io/f/Fp16c7Wd5HTuwGYhHUsTWKxGlkzCrbgVduSemt2Xc7ZvAE9p"
                 alt="DevFest Frame"
                 className="absolute inset-0 w-full h-full object-contain z-10 pointer-events-none"

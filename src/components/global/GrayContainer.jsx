@@ -1,7 +1,7 @@
 
 const GrayContainer = ({children}) => {
   return (
-    <div className="p-5 rounded-xl border border-black bg-[#eeeeee]">
+    <div className="p-5 rounded-xl w-full h-full border border-black bg-[#eeeeee]">
         {children}
     </div>
   )

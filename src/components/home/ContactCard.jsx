@@ -10,17 +10,25 @@ const ContactCard = () => {
         </h2>
         <p className="text-gray-700 font-primaryRegular py-2">Stake out #GDGChandigarh for the latest updates and news.</p>
         <div className="flex space-x-4 mt-4">
+          {/* <a href=""> */}
           <FaEnvelope className="text-gray-800 hover:text-blue-600" size={24} />
+          {/* </a> */}
+          <a href="https://www.linkedin.com/company/gdg-chandigarh/posts/?feedView=all">
           <FaLinkedin className="text-gray-800 hover:text-blue-600" size={24} />
+          </a>
+          <a href="https://www.instagram.com/gdgchandigarh?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
           <FaInstagram className="text-gray-800 hover:text-pink-600" size={24} />
+          </a>
+          <a href="https://www.youtube.com/@gdgchandigarh1203">
           <FaYoutube className="text-gray-800 hover:text-red-600" size={24} />
+          </a>
         </div>
       </div>
       <div className="lg:col-span-1 lg:block hidden">
 
       </div>
       <div className="lg:col-span-1 md:col-span-1 col-span-1">
-        <img
+        <img loading="lazy"
           src="https://utfs.io/f/BCPfHUjwOM0EbRlNmuS2hBVZGt69NWYCqy83KaPgQJI0ODsp"
           alt="Google Developer Groups Logo"
           className="w-full h-full object-center"
