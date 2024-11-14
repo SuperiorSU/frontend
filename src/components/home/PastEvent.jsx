@@ -12,13 +12,13 @@ const PastEvent = () => {
       <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-3 lg:py-16 lg:px-6">
         <div className="grid grid-cols-2 gap-4 mt-8">
         <img
-            className="mt-4 w-full lg:mt-10 rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
+            className="mt-4 object-cover min-h-80 h-full object-center rounded-lg"
+            src="https://utfs.io/f/Fp16c7Wd5HTu7UBFtdGvrSVQz1U5m9AjPGusKdRe64hJaE23"
             alt="office content 2"
           />
           <img
-            className="w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
+            className="object-cover h-full min-h-80 object-center rounded-lg"
+            src="https://utfs.io/f/Fp16c7Wd5HTunh75IYPCqwQ3W4RHhurjG6KmI5tO90oMgYiP"
             alt="office content 1"
           />
           
@@ -41,13 +41,13 @@ const PastEvent = () => {
         </div>
         <div className="grid grid-cols-2 gap-4 mt-8">
           <img
-            className="w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
+            className="object-cover h-full min-h-80 object-center rounded-lg"
+            src="https://utfs.io/f/Fp16c7Wd5HTuvLLKVLFYqi7fDl4oMaRFXbm1wueKT6pOzxI9"
             alt="office content 1"
           />
           <img
-            className="mt-4 w-full lg:mt-10 rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
+            className="mt-4 object-cover min-h-80 h-full object-center rounded-lg"
+            src="https://utfs.io/f/Fp16c7Wd5HTuF1LVR7Wd5HTuWCKpG01JEA9PO8wfYyXBSmU2"
             alt="office content 2"
           />
         </div>
