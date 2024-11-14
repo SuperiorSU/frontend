@@ -47,13 +47,13 @@ function NavBar() {
 
       {isOpen && (
         <div className="lg:hidden flex flex-col items-center space-y-5 absolute lg:w-3/4 md:w-3/4 sm:w-full w-full z-[50000000] top-[72px] bg-gray-100 md:left-24 md:right-24 md:rounded-t-2xl p-4 shadow-md">
-          <Link to="/" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Home</Link>
-          <Link to="" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Speakers</Link>
-          <Link to="/badge" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Badge</Link>
-          <Link to="" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Sponsors</Link>
-          <Link to="" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Team</Link>
-          <Link to="" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">FAQ</Link>
-          <Link target="_blank" to="https://gdg.community.dev/gdg-chandigarh/" className="block bg-yellow-400 text-black border font-medium py-2 px-4 rounded-full border-black hover:bg-yellow-500">
+          <Link onClick={()=>setIsOpen(false)} to="/" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Home</Link>
+          <Link onClick={()=>setIsOpen(false)} to="" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Speakers</Link>
+          <Link onClick={()=>setIsOpen(false)} to="/badge" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Badge</Link>
+          <Link onClick={()=>setIsOpen(false)} to="" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Sponsors</Link>
+          <Link onClick={()=>setIsOpen(false)} to="" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Team</Link>
+          <Link onClick={()=>setIsOpen(false)} to="/faq" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">FAQ</Link>
+          <Link onClick={()=>setIsOpen(false)} target="_blank" to="https://gdg.community.dev/gdg-chandigarh/" className="block bg-yellow-400 text-black border font-medium py-2 px-4 rounded-full border-black hover:bg-yellow-500">
             Register Now
           </Link>
         </div>
