@@ -74,7 +74,7 @@ const Home = () => {
               </button>
             </div>
             <div className="lg:col-span-1 col-span-2 place-self-center">
-              <img
+              <img loading="lazy"
                 src="https://utfs.io/f/BCPfHUjwOM0EHKYnXGx1aXywMKQd2e8GcPUBSmfzHbjW9tA7"
                 alt=""
               />
@@ -94,7 +94,7 @@ const Home = () => {
       <Container>
         <div className="grid grid-cols-10 lg:gap-10 md:gap-7 gap-5 ">
           <div className="lg:col-span-1 place-self-center lg:block hidden">
-            <img
+            <img loading="lazy"
               src="https://utfs.io/f/BCPfHUjwOM0EVuFgltVBQIsJjdDliaXKbT7r0E9CvzPmO3p4"
               alt=""
             />
@@ -108,7 +108,7 @@ const Home = () => {
             />
           ))}
           <div className="lg:col-span-1 place-self-center lg:block hidden">
-            <img
+            <img loading="lazy"
               src="https://utfs.io/f/BCPfHUjwOM0EhYnPHoWRRikCy6cu9HNP2SY4E7IqT830OZsD"
               alt=""
             />
@@ -148,10 +148,10 @@ const Home = () => {
           <div className="lg:col-span-1 md:col-span-2 col-span-1 h-full place-content-center">
             <GrayContainer>
                 <div className="relative mx-auto">
-                    <img src="https://devfest.gdgpune.in/_nuxt/logo-text.C9TOSKYd.svg" className="w-full h-full object-contain" alt="" />
+                    <img loading="lazy" src="https://devfest.gdgpune.in/_nuxt/logo-text.C9TOSKYd.svg" className="w-full h-full object-contain" alt="" />
                     <div className="lg:absolute md:absolute mx-auto w-max lg:left-[55px] md:left-[70px] sm:left-[76px] left-[80px] px-2 py-1 lg:text-xs md:text-xs text-lg font-primaryMedium border rounded-full border-black bg-white">Chandigarh</div>
                     <div className="lg:mt-16 md:mt-16 mt-7">
-                <img className="w-full h-full object-center" src="https://utfs.io/f/BCPfHUjwOM0EbRlNmuS2hBVZGt69NWYCqy83KaPgQJI0ODsp" alt="" />
+                <img loading="lazy" className="w-full h-full object-center" src="https://utfs.io/f/BCPfHUjwOM0EbRlNmuS2hBVZGt69NWYCqy83KaPgQJI0ODsp" alt="" />
             </div>
                 </div>
             </GrayContainer>

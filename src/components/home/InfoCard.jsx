@@ -16,7 +16,7 @@ const InfoCard = () => {
                         <p className="text-gray-700 font-primaryRegular">{item.description}</p>
                     </div>
                 </GrayContainer>
-                        <img className='absolute right-0 bottom-0 w-1/2' src={item.icon} alt="" />
+                        <img loading="lazy" className='absolute right-0 bottom-0 w-1/2' src={item.icon} alt="" />
                 </div>
             ))}
         </div>

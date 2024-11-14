@@ -32,7 +32,7 @@ const TechStack = () => {
                         className="group relative text-4xl text-gray-700 hover:text-blue-600 transition duration-300"
                     >
                         <div className="p-4 bg-white rounded-full border border-black hover:shadow-xl">
-                            <img src={tech.icon} className="object-contain m-auto object-center w-8 h-8" alt={tech.name} />
+                            <img loading="lazy" src={tech.icon} className="object-contain m-auto object-center w-8 h-8" alt={tech.name} />
                         </div>
                         <span className="absolute w-max -bottom-2 left-1/2 transform -translate-x-1/2 translate-y-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-sm font-medium text-gray-700 bg-white p-1 shadow-lg">
                             {tech.name}

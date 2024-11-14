@@ -28,7 +28,7 @@ const ContactCard = () => {
 
       </div>
       <div className="lg:col-span-1 md:col-span-1 col-span-1">
-        <img
+        <img loading="lazy"
           src="https://utfs.io/f/BCPfHUjwOM0EbRlNmuS2hBVZGt69NWYCqy83KaPgQJI0ODsp"
           alt="Google Developer Groups Logo"
           className="w-full h-full object-center"
