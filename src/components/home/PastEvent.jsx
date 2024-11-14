@@ -24,7 +24,7 @@ const PastEvent = () => {
           
         </div>
         <div className="">
-          <div className="grid gap-3 space-x-4 space-y-4 my-3 lg:grid-cols-2 md:grid-cols-2 w-full h-full grid-rows-2 grid-cols-2">
+          <div className="grid gap-3 space-x-4 space-y-4 lg:my-3 md:my-5 my-6 lg:grid-cols-2 md:grid-cols-2 w-full h-full grid-rows-2 grid-cols-2">
             {pastData.map((item, index) => (
 
               <div
