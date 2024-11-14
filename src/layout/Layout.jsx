@@ -5,15 +5,15 @@ import Footer from '../components/global/Footer'
 
 const Layout = () => {
   return (
-    <>
+    <div  className='overflow-x-hidden scroll-smooth'>
       <NavBar />
-      <div className='flex justify-center overflow-x-hidden'>
+      <div className='flex justify-center '>
         <div className=''>
           <Outlet />
         </div>
       </div>
         <Footer/>
-    </>
+    </div>
   )
 }
 
