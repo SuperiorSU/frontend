@@ -52,8 +52,8 @@ const FAQ = () => {
 
   return (
     <div className="max-w-2xl mx-auto text-center p-4">
-      <h2 className="text-4xl font-bold">Frequently asked questions</h2>
-      <p className="mt-2">Need Answers? Everything you need to know</p>
+      <h2 className="text-4xl font-primaryBold">Frequently asked questions</h2>
+      <p className="mt-2 font-primaryRegular ">Need Answers? Everything you need to know</p>
       <div className="mt-6 space-y-3">
         {faqs.map((faq, index) => (
           <div key={index} className="border-b border-gray-300">
@@ -65,7 +65,7 @@ const FAQ = () => {
               <span>{activeIndex === index ? "-" : "+"}</span>
             </button>
             {activeIndex === index && (
-              <div className="px-4 py-3 text-left bg-gray-100">{faq.answer}</div>
+              <div className="px-4 py-3 text-left font-primaryRegular bg-gray-100">{faq.answer}</div>
             )}
           </div>
         ))}
