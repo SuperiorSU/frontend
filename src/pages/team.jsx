@@ -1,7 +1,6 @@
 import React from "react";
 import Card from "../components/home/Card";
 import { motion } from "framer-motion";
-import Background from "../components/home/Background";
 const GDG_Chandigarh = [
 
     {
@@ -146,6 +145,8 @@ const GDG_on_campus_volunteers = [
         description: "Building seamless web experiences with a focus on intuitive design and clean, efficient code. As a web developer, I turn coffee into code and bugs into features (sometimes unintentionally).",
         socialLinks: {
             linkedin: "https://www.linkedin.com/in/gursimrxnsingh",
+            github: "https://github.com/gursimrxn",
+            twitter: "https://twitter.com/gursimrxnsingh",
         },
     },
     {
@@ -161,13 +162,13 @@ const GDG_on_campus_volunteers = [
         name: "Varsha Singh",
         role: "GDG SLIET Web-Dev Lead",
         image: "https://i.ibb.co/qd8wbkc/Whats-App-Image-2024-11-14-at-12-46-41-c2e60d1e.jpg",
-        description: "I am Varsha Kumari, a 3rd yr B.E. student. I am a web developer and currently practising DSA.",
+        description: "I am Varsha Kumari, a 3rd yr B.E. student. I am a web developer and currently practising DSA.",
         socialLinks: {
             linkedin: "https://www.linkedin.com/in/varsha-kumari-038ba1248/",
         },
     },
     {
-        name: "Kumar Sujal",
+        name: "Kumar Sujal",
         role: "GDG on Campus SVIET Tech Lead",
         image: "https://i.ibb.co/v4J0DhB/myphoto-copy.jpg",
         description: "Tech Lead @GDG on Campus SVIET | Fullstack DeveloperMy curiosity drives me to push boundaries and seek innovative solutions in the ever-evolving tech world.",
@@ -187,8 +188,8 @@ const GDG_on_campus_volunteers = [
 ];
 
 const TeamSection = ({ title, members }) => (
-    <div className="mb-12">
-        <h2 className="text-xl sm:text-2xl font-bold mb-6">{title}</h2>
+    <div className="mb-12 font-primaryRegular">
+        <h2 className="text-xl sm:text-2xl font-primaryBold mb-6">{title}</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 sm:gap-6">
             {members.map((member, index) => (
                 <motion.div
@@ -217,16 +218,14 @@ const TeamSection = ({ title, members }) => (
 );
 
 const TeamPage = () => (
-    <div className="p-4 relative flex flex-col items-center sm:p-8 w-full max-w-7xl mx-auto">
-        <h1 className="text-left text-2xl sm:text-3xl font-bold mb-4">GDG Chandigarh</h1>
-        <p className="text-left mb-6 sm:mb-8 text-sm sm:text-base">
+    <div className="p-4 relative flex flex-col items-center sm:p-8 w-full max-w-7xl font-primaryRegular mx-auto">
+        <p className="text-left mb-6 sm:mb-8 text-xl sm:text-2xl">
             Meet the dedicated team behind GDG who make everything possible.
         </p>
         <TeamSection title="GDG Chandigarh" members={GDG_Chandigarh} />
         <TeamSection title="GDG Cloud Chandigarh" members={GDG_cloud_chandigarh} />
         <TeamSection title="GDG On Campus Leads" members={GDG_on_campus_leads} />
         <TeamSection title="GDG On Campus Volunteers" members={GDG_on_campus_volunteers} />
-        <Background />
     </div>
 );
 
