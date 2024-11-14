@@ -10,9 +10,9 @@ const ContactCard = () => {
         </h2>
         <p className="text-gray-700 font-primaryRegular py-2">Stake out #GDGChandigarh for the latest updates and news.</p>
         <div className="flex space-x-4 mt-4">
-          <a href="">
+          {/* <a href=""> */}
           <FaEnvelope className="text-gray-800 hover:text-blue-600" size={24} />
-          </a>
+          {/* </a> */}
           <a href="https://www.linkedin.com/company/gdg-chandigarh/posts/?feedView=all">
           <FaLinkedin className="text-gray-800 hover:text-blue-600" size={24} />
           </a>
