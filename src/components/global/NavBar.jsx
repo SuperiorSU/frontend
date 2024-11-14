@@ -39,7 +39,7 @@ function NavBar() {
           </button>
         </div>
         <div className="lg:block hidden w-max">
-          <Link to="" className="bg-yellow-400 font-primaryMedium text-black border font-medium py-2 px-4 rounded-full border-black hover:bg-yellow-500">
+          <Link target="_blank" to="https://gdg.community.dev/gdg-chandigarh/" className="bg-yellow-400 font-primaryMedium text-black border font-medium py-2 px-4 rounded-full border-black hover:bg-yellow-500">
             Register Now
           </Link>
         </div>
@@ -53,7 +53,7 @@ function NavBar() {
           <Link to="" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Sponsors</Link>
           <Link to="" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Team</Link>
           <Link to="" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">FAQ</Link>
-          <Link to="" className="block bg-yellow-400 text-black border font-medium py-2 px-4 rounded-full border-black hover:bg-yellow-500">
+          <Link target="_blank" to="https://gdg.community.dev/gdg-chandigarh/" className="block bg-yellow-400 text-black border font-medium py-2 px-4 rounded-full border-black hover:bg-yellow-500">
             Register Now
           </Link>
         </div>

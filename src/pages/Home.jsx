@@ -12,6 +12,7 @@ import EventInfo from "../components/home/EventInfo";
 import CountdownTimer from "../components/home/CountdownTimer";
 import TechStack from "../components/home/TechStack";
 import InfoCard from "../components/home/InfoCard";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -67,7 +68,9 @@ const Home = () => {
                 </div>
               </div>
               <button className="bg-yellow-400 hover:bg-yellow-500 px-4 py-2 rounded-full font-medium border-black border mt-4 text-primaryRegular">
-                Register Now
+                <Link target="_blank" to="https://gdg.community.dev/gdg-chandigarh/">
+                  Register Now
+                </Link>
               </button>
             </div>
             <div className="lg:col-span-1 col-span-2 place-self-center">
