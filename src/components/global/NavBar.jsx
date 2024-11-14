@@ -30,7 +30,7 @@ function NavBar() {
           <Link to="" className="text-gray-700 font-primaryRegular text-xs inline-block hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Speakers</Link>
           <Link to="/badge" className="text-gray-700 font-primaryRegular text-xs inline-block hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Badge</Link>
           <Link to="" className="text-gray-700 font-primaryRegular text-xs inline-block hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Sponsors</Link>
-          <Link to="" className="text-gray-700 font-primaryRegular text-xs inline-block hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Team</Link>
+          <Link to="/team" className="text-gray-700 font-primaryRegular text-xs inline-block hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Team</Link>
           <Link to="/faq" className="text-gray-700 font-primaryRegular text-xs inline-block hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">FAQ</Link>
         </div>
         <div className="lg:hidden block">
@@ -51,7 +51,7 @@ function NavBar() {
           <Link onClick={()=>setIsOpen(false)} to="" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Speakers</Link>
           <Link onClick={()=>setIsOpen(false)} to="/badge" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Badge</Link>
           <Link onClick={()=>setIsOpen(false)} to="" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Sponsors</Link>
-          <Link onClick={()=>setIsOpen(false)} to="" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Team</Link>
+          <Link onClick={()=>setIsOpen(false)} to="/team" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Team</Link>
           <Link onClick={()=>setIsOpen(false)} to="/faq" className="block text-gray-700 font-primaryRegular text-xs hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">FAQ</Link>
           <Link onClick={()=>setIsOpen(false)} target="_blank" to="https://gdg.community.dev/gdg-chandigarh/" className="block bg-yellow-400 text-black border font-medium py-2 px-4 rounded-full border-black hover:bg-yellow-500">
             Register Now
