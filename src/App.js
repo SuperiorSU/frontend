@@ -4,6 +4,7 @@ import Layout from './layout/Layout'
 import Home from './pages/Home'
 import ErrorPage from './pages/ErrorPage'
 import Badge from './pages/Badge'
+import TeamPage from './pages/team'
 import FAQ from './pages/faq'
 
 
@@ -19,7 +20,11 @@ const BrowserRouter = createBrowserRouter([
       {
         path:'/badge',
         element: <Badge/>
-      }, 
+      },
+      {
+        path: '/team',
+        element: <TeamPage/>
+      },
       {
         path:'/faq',
         element: <FAQ/>
@@ -35,7 +40,9 @@ const BrowserRouter = createBrowserRouter([
 const App = () => {
   
   return (
-    <RouterProvider router={BrowserRouter}/>
+    <div className="m-0 p-0 w-screen">
+      <RouterProvider router={BrowserRouter}/>
+    </div>
   )
 }
 
