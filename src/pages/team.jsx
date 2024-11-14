@@ -118,13 +118,12 @@ const GDG_cloud_chandigarh = [
 
 const GDG_on_campus_leads = [
     {
-        name: "Rohit Mehta",
-        role: "Web Developer",
-        image: "https://cdn.dribbble.com/users/2645532/screenshots/10865833/3d_avatar-mise_en_page-dribbblexxl_4x.jpg",
+        name: "Udayan Sharma",
+        role: "GDG On Campus Chitkara Lead",
+        image: "https://i.ibb.co/BG4GWBN/1723979900199.jpg",
         description: "Builds and maintains our web platforms.",
         socialLinks: {
-            github: "https://github.com/rohitm",
-            linkedin: "https://linkedin.com/in/rohit-mehta",
+            linkedin: "https://www.linkedin.com/in/udayanmoudgil/",
         },
     },
     {
