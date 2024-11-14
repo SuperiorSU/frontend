@@ -125,6 +125,42 @@ const GDG_on_campus_leads = [
             linkedin: "https://www.linkedin.com/in/udayanmoudgil/",
         },
     },
+    {
+        name: "Manish Kumar",
+        role: "GDG On Campus PUSSGRC Lead",
+        image: "https://i.ibb.co/Kx9Zm7g/manish-kumar-gdg.jpg",
+        description: "As GDG On Campus Lead at PUSSGRC, I connect students with Google’s resources and a supportive tech community. Through events and mentorship, I empower students to grow and innovate.",
+        socialLinks: {
+            linkedin: "https://www.linkedin.com/in/manishkumar541/",
+        },
+    },
+    {
+        name: "Manish Kumar",
+        role: "GDG On Campus SVIET Lead",
+        image: "https://i.ibb.co/CwFwRYL/Vaishnavi.jpg",
+        description: "GDG On Campus: SVIET Organizer | Graphic designer | Web developer",
+        socialLinks: {
+            linkedin: "http://www.linkedin.com/in/vaishnavi-bajpai-908726260",
+        },
+    },
+    {
+        name: "Kundan Kumar",
+        role: "GDG On Campus SLIET Longowal Lead",
+        image: "https://i.ibb.co/cxSzsFX/IMG-20230401-WA0164.jpg",
+        description: "Specialist @Codeforces | Knight @LeetCode | Competitive Programmer | Full Stack Developer | GDSC Lead'24",
+        socialLinks: {
+            linkedin: "https://www.linkedin.com/in/kundank11/",
+        },
+    },
+    {
+        name: "GURJOT SINGH K.",
+        role: "GDG on Campus Gulzar Group of Institutes Lead",
+        image: "https://i.ibb.co/CzGxNBh/last.jpg",
+        description: "Google Developers Group Lead | On Campus | Computer Science Student | Passionate About AI, Coding & Startup Growth",
+        socialLinks: {
+            linkedin: "https://www.linkedin.com/in/zyrvontek/",
+        },
+    },
     
 ];
 
@@ -133,7 +169,7 @@ const GDG_on_campus_volunteers = [
         name: "Vedant Handa",
         role: "GDG On Campus Chitkara Web-Dev Lead",
         image: "https://i.ibb.co/0GNFyqD/linkdin-profile.jpg",
-        description: "As the web dev lead at GDG, my friend brings innovation and precision to every project, making sure the web experiences we create are as smooth as they are impactful. With a passion for design and development, they turn challenges into opportunities and always push the boundaries of what's possible.",
+        description: "As the Web Development Lead at GDG On Campus Chitkara, I ensure our web experiences are both seamless and impactful. With a passion for design and development, I transform challenges into opportunities and constantly push the boundaries of what’s possible.",
         socialLinks: {
             linkedin: "https://www.linkedin.com/in/vedant-handa-58209a30b/",
         },
