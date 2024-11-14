@@ -19,7 +19,7 @@ const Home = () => {
       <Container>
         <main className=" w-full p-4 rounded-xl">
           <div className="grid lg:grid-cols-2 h-full lg:gap-0 gap-3 md:grid-cols-1 sm:grid-cols-1 grid-cols-1 my-auto">
-            <div className="lg:col-span-1 col-span-2 place-self-center relative -z-[1]">
+            <div className="lg:col-span-1 col-span-2 place-self-center relative z-[0]">
               <p className="">
                 <span className="font-primaryRegular text-2xl">Welcome to</span>
                 <br />
