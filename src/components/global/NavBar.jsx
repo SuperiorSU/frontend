@@ -31,7 +31,7 @@ function NavBar() {
           <Link to="/badge" className="text-gray-700 font-primaryRegular text-xs inline-block hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Badge</Link>
           <Link to="" className="text-gray-700 font-primaryRegular text-xs inline-block hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Sponsors</Link>
           <Link to="" className="text-gray-700 font-primaryRegular text-xs inline-block hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">Team</Link>
-          <Link to="" className="text-gray-700 font-primaryRegular text-xs inline-block hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">FAQ</Link>
+          <Link to="/faq" className="text-gray-700 font-primaryRegular text-xs inline-block hover:bg-gray-300 rounded-full duration-100 px-[10px] py-1 hover:text-gray-900">FAQ</Link>
         </div>
         <div className="lg:hidden block">
           <button className="p-2 rounded-full hover:bg-slate-200 duration-100" onClick={handleToggle}>
