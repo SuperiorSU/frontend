@@ -6,10 +6,12 @@ import Footer from '../components/global/Footer'
 const Layout = () => {
   return (
     <>
-        <NavBar/>
+      <NavBar />
+      <div className='flex justify-center'>
         <div className='container'>
-            <Outlet/>
+          <Outlet />
         </div>
+      </div>
         <Footer/>
     </>
   )
