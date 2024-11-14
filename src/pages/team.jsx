@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../components/home/Card";
 import { motion } from "framer-motion";
-
+import Background from "../components/home/Background";
 const GDG_Chandigarh = [
 
     {
@@ -209,7 +209,7 @@ const TeamSection = ({ title, members }) => (
 );
 
 const TeamPage = () => (
-    <div className="p-4 flex flex-col items-center sm:p-8 w-full max-w-7xl mx-auto">
+    <div className="p-4 relative flex flex-col items-center sm:p-8 w-full max-w-7xl mx-auto">
         <h1 className="text-left text-2xl sm:text-3xl font-bold mb-4">GDG Chandigarh</h1>
         <p className="text-left mb-6 sm:mb-8 text-sm sm:text-base">
             Meet the dedicated team behind GDG who make everything possible.
@@ -218,6 +218,7 @@ const TeamPage = () => (
         <TeamSection title="GDG Cloud Chandigarh" members={GDG_cloud_chandigarh} />
         <TeamSection title="GDG On Campus Leads" members={GDG_on_campus_leads} />
         <TeamSection title="GDG On Campus Volunteers" members={GDG_on_campus_volunteers} />
+        <Background />
     </div>
 );
 
