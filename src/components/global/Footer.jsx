@@ -42,7 +42,7 @@ function Footer() {
             </div>
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/company/gdg-chandigarh/posts/?feedView=all"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-white text-xl"
@@ -52,7 +52,7 @@ function Footer() {
             </div>
           </a>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/gdgchandigarh?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-white text-xl"
@@ -62,7 +62,7 @@ function Footer() {
             </div>
           </a>
           <a
-            href="https://youtube.com"
+            href="https://www.youtube.com/@gdgchandigarh1203"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-white text-xl"
