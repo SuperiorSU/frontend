@@ -5,7 +5,6 @@ import Home from './pages/Home'
 import ErrorPage from './pages/ErrorPage'
 import Badge from './pages/Badge'
 import FAQ from './pages/faq'
-import TeamPage from './pages/team'
 
 
 const BrowserRouter = createBrowserRouter([
@@ -25,10 +24,6 @@ const BrowserRouter = createBrowserRouter([
         path:'/faq',
         element: <FAQ/>
       },
-      {
-        path:"/team",
-        element: <TeamPage/>
-      }
     ]
   },
   {
