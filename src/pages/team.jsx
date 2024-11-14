@@ -135,7 +135,7 @@ const GDG_on_campus_leads = [
         },
     },
     {
-        name: "Manish Kumar",
+        name: "vaishnavi Bajpai",
         role: "GDG On Campus SVIET Lead",
         image: "https://i.ibb.co/CwFwRYL/Vaishnavi.jpg",
         description: "GDG On Campus: SVIET Organizer | Graphic designer | Web developer",

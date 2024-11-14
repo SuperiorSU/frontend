@@ -170,6 +170,19 @@ const Home = () => {
         <ContactCard />
       </Container>
       <div className="py-7"></div>
+      <Container>
+        <div className="p-3">
+        <h3 className="text-4xl font-primaryBold py-7">Our Sponsors</h3>
+        
+          <div className="lg:w-1/5 md:w-1/4 sm:w-1/2 w-1/2">
+        <GrayContainer>
+          <a href="https://techferment.com/">
+            <img loading="lazy" src="https://utfs.io/f/Fp16c7Wd5HTuvfWGBTmFYqi7fDl4oMaRFXbm1wueKT6pOzxI" alt="" />
+          </a>
+        </GrayContainer>
+          </div>
+        </div>
+      </Container>
     </div>
   );
 };

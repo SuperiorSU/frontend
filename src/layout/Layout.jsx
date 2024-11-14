@@ -7,8 +7,8 @@ const Layout = () => {
   return (
     <>
       <NavBar />
-      <div className='flex justify-center'>
-        <div className='container'>
+      <div className='flex justify-center overflow-x-hidden'>
+        <div className=''>
           <Outlet />
         </div>
       </div>
