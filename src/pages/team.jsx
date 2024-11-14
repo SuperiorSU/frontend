@@ -218,8 +218,8 @@ const TeamSection = ({ title, members }) => (
 
 const TeamPage = () => (
     <div className="p-4 relative flex flex-col items-center sm:p-8 w-full max-w-7xl mx-auto">
-        <h1 className="text-left text-2xl sm:text-3xl font-bold mb-4">GDG Chandigarh</h1>
-        <p className="text-left mb-6 sm:mb-8 text-sm sm:text-base">
+        <h1 className="text-left text-2xl sm:text-3xl font-primaryBold mb-4">GDG Chandigarh</h1>
+        <p className="text-left font-primaryRegular mb-6 sm:mb-8 text-sm sm:text-base">
             Meet the dedicated team behind GDG who make everything possible.
         </p>
         <TeamSection title="GDG Chandigarh" members={GDG_Chandigarh} />

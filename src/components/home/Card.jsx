@@ -85,13 +85,13 @@ const Card = ({ name, imageSrc, designation, description, links }) => {
                 exit={{ x: 50, opacity: 0 }}
                 transition={{ delay: 0.2, duration: 0.2 }}
               >
-                <h2 className="text-3xl font-bold">
+                <h2 className="text-3xl font-primaryBold">
                   {name}
                 </h2>
-                <p className="text-xl text-gray-600 mt-2">
+                <p className="text-xl font-primaryRegular text-gray-600 mt-2">
                   {designation}
                 </p>
-                <p className="mt-4">
+                <p className="mt-4 font-primaryRegular">
                   {description}
                 </p>
                 <div className="mt-6 flex gap-4">
