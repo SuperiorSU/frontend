@@ -68,7 +68,7 @@ const Home = () => {
                 </div>
               </div>
               <button className="bg-yellow-400 hover:bg-yellow-500 px-4 py-2 rounded-full font-medium border-black border mt-4 text-primaryRegular">
-                <Link target="_blank" to="https://gdg.community.dev/gdg-chandigarh/">
+                <Link target="_blank" to="https://allevents.in/mohali/devfest-chandigarh-2024/80008236703801">
                   Register Now
                 </Link>
               </button>
@@ -86,7 +86,7 @@ const Home = () => {
       <Container>
         <GrayContainer>
           <div>
-            <CountdownTimer targetDate={new Date("2024-11-30T00:00:00")} />
+            <CountdownTimer targetDate={new Date("2024-12-15T00:00:00")} />
           </div>
         </GrayContainer>
       </Container>
