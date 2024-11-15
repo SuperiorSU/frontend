@@ -12,11 +12,11 @@ const ErrorPage = () => {
               Sorry we couldn't find this page.{" "}
             </p>
             <p class="mb-8">
-              But dont worry, you can find plenty of other things on our
-              homepage.
+              But dont worry, You can find plenty of other things on our
+              Homepage.
             </p>
 
-            <button class="px-4 inline py-2 text-sm font-medium leading-5 shadow text-white transition-colors duration-150 border-transparent rounded-full focus:outline-none focus:shadow-outline-blue bg-blue-600 active:bg-blue-600 border-2 border-slate-950 hover:bg-blue-700">
+            <button class="px-4 inline py-2 text-sm font-medium leading-5 shadow text-white transition-colors duration-150 border-transparent rounded-full focus:outline-none focus:shadow-outline-blue bg-blue-600 active:bg-blue-600  border-2 border-slate-950 hover:bg-blue-700">
                 <Link to="/">
                     Back to Homepage
                 </Link>
