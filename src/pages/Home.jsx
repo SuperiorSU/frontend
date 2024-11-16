@@ -52,7 +52,7 @@ const Home = () => {
                 <div>
                   <CiCalendarDate size={24} className="me-1 inline-block" />
                   <span className="text-primaryRegular">
-                    30th November, 2024
+                  15th December , 2024
                   </span>
                 </div>
                 <div>
