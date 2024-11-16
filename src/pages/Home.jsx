@@ -60,7 +60,7 @@ const Home = () => {
                   <span className="text-primaryRegular">
                     <a
                       className="underline"
-                      href="https://maps.app.goo.gl/XppGtCKWAJBXUDVP9"
+                      href="https://maps.app.goo.gl/MsquJDXEMXA6Wbh78"
                     >
                       Chandigarh University, India
                     </a>
