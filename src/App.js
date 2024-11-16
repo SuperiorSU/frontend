@@ -6,6 +6,7 @@ import ErrorPage from './pages/ErrorPage'
 import Badge from './pages/Badge'
 import TeamPage from './pages/team'
 import FAQ from './pages/faq'
+import ToBeAnnounced from './components/global/ToBeAnnounced'
 
 
 const BrowserRouter = createBrowserRouter([
@@ -29,6 +30,12 @@ const BrowserRouter = createBrowserRouter([
         path:'/faq',
         element: <FAQ/>
       },
+      {path:"/speakers",
+      element: <ToBeAnnounced/>},
+      {
+        path: '/sponsors',
+        element: <ToBeAnnounced/>
+      }
     ]
   },
   {

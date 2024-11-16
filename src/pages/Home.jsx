@@ -151,7 +151,7 @@ const Home = () => {
                     <img loading="lazy" src="https://devfest.gdgpune.in/_nuxt/logo-text.C9TOSKYd.svg" className="w-full h-full object-contain" alt="" />
                     <div className="lg:absolute md:absolute mx-auto w-max lg:left-[55px] md:left-[70px] sm:left-[76px] left-[80px] px-2 py-1 lg:text-xs md:text-xs text-lg font-primaryMedium border rounded-full border-black bg-white">Chandigarh</div>
                     <div className="lg:mt-16 md:mt-16 mt-7">
-                <img loading="lazy" className="w-full h-full object-center" src="https://utfs.io/f/BCPfHUjwOM0EbRlNmuS2hBVZGt69NWYCqy83KaPgQJI0ODsp" alt="" />
+                <img loading="lazy" className="w-full h-full object-center" src="https://utfs.io/f/Fp16c7Wd5HTuqU7SW5or58tdiVSQXY7GjlhafC3KTsm4cqwg" alt="" />
             </div>
                 </div>
             </GrayContainer>

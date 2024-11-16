@@ -10,7 +10,7 @@ const PastEvent = () => {
         <img loading="lazy" className="rounded-xl mx-auto object-cover w-full h-96" src="https://blogger.googleusercontent.com/img/a/AVvXsEgm6JhnAjRDhX_TJ7XpTBmMEs84VQa1dlKnI4KHxI7KengLd0uRHjmbSObEZhLfjDqVcNl3xVJcf_J4GJz1FV5A2bu1vhe8kC8gZ-vke03nJ0a1zeo2Sr8YH7LJARfKingNtvomCBvDn-QAWjMvlSH1gRBYt3Nc1y5XLTVJSUr6z6MGZglR1XNr9drGqaw" alt="" />
       </div>
       <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-3 lg:py-16 lg:px-6">
-        <div className="grid grid-cols-2 gap-4 mt-8">
+        <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-4 lg:gap-y-1 md:gap-y-2 gap-y-8 mt-8">
         <img loading="lazy"
             className="mt-4 object-cover min-h-80 h-full object-center rounded-lg"
             src="https://utfs.io/f/Fp16c7Wd5HTu7UBFtdGvrSVQz1U5m9AjPGusKdRe64hJaE23"
@@ -39,7 +39,7 @@ const PastEvent = () => {
           
           
         </div>
-        <div className="grid grid-cols-2 gap-4 mt-8">
+        <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-col-1 gap-4 mt-8">
           <img loading="lazy"
             className="object-cover h-full min-h-80 object-center rounded-lg"
             src="https://utfs.io/f/Fp16c7Wd5HTuvLLKVLFYqi7fDl4oMaRFXbm1wueKT6pOzxI9"

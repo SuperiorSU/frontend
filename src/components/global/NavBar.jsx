@@ -21,12 +21,14 @@ function NavBar() {
       <nav className="bg-gray-100 lg:w-3/4 md:w-3/4 sm:w-full w-full lg:my-4 md:my-4 sm:mb-3 mb-3 lg:top-4 md:top-4 top-0 p-4 lg:rounded-full md:rounded-full z-50 mx-auto flex items-center justify-between">
         
         <div className="flex items-center space-x-2">
-          <img
-            loading="lazy"
-            src="https://utfs.io/f/Fp16c7Wd5HTuJrW7KPVH70dwr3DbxJGnUXPBskq8yI9zSOo5"
-            alt="DevFest Logo"
-            className="h-6"
-          />
+          <Link to="/">
+            <img
+              loading="lazy"
+              src="https://utfs.io/f/Fp16c7Wd5HTuJrW7KPVH70dwr3DbxJGnUXPBskq8yI9zSOo5"
+              alt="DevFest Logo"
+              className="h-6"
+            />
+          </Link>
           <span className="inline-block px-2 py-1 text-xs font-primaryMedium border rounded-full border-black bg-white">Chandigarh</span>
         </div>
         

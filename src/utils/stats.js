@@ -1,18 +1,18 @@
 export const eventData = [
   {
-    count: "30+",
+    count: "10+",
     label: "Speakers",
     imageUrl:
       "https://utfs.io/f/BCPfHUjwOM0EOGczdvrETYw0WKvF4eI97g16Zk5GxqU2CAzy",
   },
   {
-    count: "1000+",
+    count: "500+",
     label: "Participants",
     imageUrl:
       "https://utfs.io/f/BCPfHUjwOM0EW9szZicLZmw7VGO4BWgFJqD9SdMXUz5nCsvx",
   },
   {
-    count: "25+",
+    count: "10+",
     label: "Sessions",
     imageUrl:
       "https://utfs.io/f/BCPfHUjwOM0EUfh3yQGLHtRf0rbekawNTGy7cSEx4QmoCil2",

@@ -10,23 +10,18 @@ function Footer() {
         <div className="flex lg:ps-0 md:ps-1 ps-5 flex-col md:flex-row md:items-center space-y-6 md:space-y-0 md:space-x-6">
           <div className="text-xl font-primaryBold">GDG Chandigarh</div>
           <div className="lg:px-4 lg:block hidden"></div>
-          <Link to="/about-gdg" className="text-gray-300 text-primaryRegular hover:text-white">
+          <Link to="https://developers.google.com/community/gdg" className="text-gray-300 text-primaryRegular hover:text-white">
             About GDG Program
           </Link>
-          <Link to="/about-wtm" className="text-gray-300 text-primaryRegular hover:text-white">
+          <Link to="https://developers.google.com/womentechmakers" className="text-gray-300 text-primaryRegular hover:text-white">
             About WTM Program
           </Link>
           <Link to="/faq" className="text-gray-300 text-primaryRegular hover:text-white">
             FAQ
           </Link>
+          
           <Link
-            to="/code-of-conduct"
-            className="text-gray-300 text-primaryRegular hover:text-white"
-          >
-            Code of conduct
-          </Link>
-          <Link
-            to="/community-guidelines"
+            to="https://developers.google.com/community-guidelines"
             className="text-gray-300 text-primaryRegular hover:text-white"
           >
             Community Guidelines

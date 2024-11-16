@@ -34,15 +34,15 @@ const CountdownTimer = ({ targetDate }) => {
       <h2 className="text-4xl font-bold font-primaryBold mb-5 p-2">Countdown to Event</h2>
       <div className="flex justify-center gap-4 mt-4">
         <div className="flex flex-col items-center">
-          <span className="lg:text-7xl md:text-6xl text-4xl font-primaryBold text-[#ea4335]">{timeLeft.days}:</span>
+          <span className="lg:text-7xl md:text-6xl text-4xl font-primaryBold text-[#ea4335]">{timeLeft.days}</span>
           <span className="font-primaryRegular">Days</span>
         </div>
         <div className="flex flex-col items-center">
-          <span className="lg:text-7xl md:text-6xl text-4xl font-primaryBold text-[#34a853]">{timeLeft.hours}:</span>
+          <span className="lg:text-7xl md:text-6xl text-4xl font-primaryBold text-[#34a853]">{timeLeft.hours}</span>
           <span className="font-primaryRegular">Hours</span>
         </div>
         <div className="flex flex-col items-center">
-          <span className="lg:text-7xl md:text-6xl text-4xl font-primaryBold text-[#f9ab00]">{timeLeft.minutes}:</span>
+          <span className="lg:text-7xl md:text-6xl text-4xl font-primaryBold text-[#f9ab00]">{timeLeft.minutes}</span>
           <span className="font-primaryRegular">Minutes</span>
         </div>
         <div className="flex flex-col items-center">
