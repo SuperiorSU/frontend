@@ -62,7 +62,7 @@ const Home = () => {
                       className="underline"
                       href="https://maps.app.goo.gl/XppGtCKWAJBXUDVP9"
                     >
-                      Chandigarh, India
+                      Chandigarh University, India
                     </a>
                   </span>
                 </div>
